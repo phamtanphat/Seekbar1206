@@ -7,6 +7,11 @@
     tools:context=".MainActivity">
 
     <SeekBar
+        android:thumb="@mipmap/ic_launcher"
+        android:max="2"
+        android:progress="1"
+        android:secondaryProgress="2"
+        android:secondaryProgressTint="#9a868686"
         android:progressTint="@color/colorPrimary"
         android:layout_centerInParent="true"
         android:layout_width="match_parent"
